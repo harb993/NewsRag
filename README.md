@@ -91,5 +91,4 @@ The system employs a Retrieval-Augmented Generation (RAG) workflow to mitigate L
 4. The selected Persona's system prompt is injected into the LangChain transformation chain.
 5. The local LLM generates a grounded summary based strictly on the retrieved context.
 
-## License
-Open source under the MIT License.
+

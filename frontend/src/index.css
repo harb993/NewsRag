@@ -1,0 +1,61 @@
+:root {
+  --bg-color: #0a0a0c;
+  --card-bg: #16161a;
+  --text-primary: #f0f0f2;
+  --text-secondary: #94949e;
+  --accent-color: #6366f1;
+  --accent-hover: #4f46e5;
+  --border-color: #2a2a32;
+  --error-color: #ef4444;
+  --success-color: #10b981;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 1000px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(22, 22, 26, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+}

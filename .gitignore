@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+build/
+dist/
+
+# Vector Store
+news_vault/
+test_vault/
+
+# React / Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.DS_Store
+
+# Local database
+user_preferences.json
+test_prefs.json
